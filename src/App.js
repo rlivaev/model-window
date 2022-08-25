@@ -6,6 +6,8 @@ function App() {
   return (
     <div className="App">
       <button onClick={() => setOpen(true)} className="open-modal-btn">✨ Открыть окно</button>
+
+      {/* First method showing modelWindow */}
         {/* {
           (open && <div className="overlay">
           <div className="modal">
@@ -18,7 +20,7 @@ function App() {
         </div>)
         } */}
 
-
+        {/* Second method showing modelWindow */}
 <div className={`overlay animated ${open ? 'show' : ''}`}>
     <div className="modal">
         <svg onClick={() => setOpen(false)} height="200" viewBox="0 0 200 200" width="200">
