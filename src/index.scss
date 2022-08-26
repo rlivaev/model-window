@@ -41,6 +41,32 @@ body {
     transform: translateY(0);
   }
 }
+.input-model{
+background: rgb(255, 255, 0);
+padding: 18px 25px;
+border-radius: 20px;
+font-weight: 500;
+border: 0;
+outline: none;
+font-size: 22px;
+cursor: pointer;
+line-height: 23px;
+box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+transition: all 0.1s ease-in-out;
+}
+.save-model-btn{
+  background: rgb(0, 178, 254);
+padding: 18px 25px;
+border-radius: 20px;
+font-weight: 500;
+border: 0;
+outline: none;
+font-size: 22px;
+cursor: pointer;
+line-height: 23px;
+box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+transition: all 0.1s ease-in-out;
+}
 
 .overlay {
   position: absolute;
