@@ -1,12 +1,14 @@
 import React from 'react';
-import ModalWindow from './model-window';
+import ModalWindow from './model-window.js';
 import './index.scss';
 
 function App() {
-  const [open, setOpen] = React.useState(false)
+
+
   return (
     <div className="App">
        <ModalWindow/>
+
     </div>
   );
 }
